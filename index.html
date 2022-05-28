@@ -22,7 +22,7 @@
             <li class="item"><a href="#client-section">Our Clients</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
             <!-- <li class="logout"><a href="https://facerecognition-with-api.vercel.app/">Logout</li>. -->
-                <button class="logout">Logout</button>
+                <button id="logout">Logout</button>
         </ul>
     </nav>
 
@@ -84,9 +84,13 @@
     </footer>
 </body>
 <script>
-    document.getElementsByClassName('logout').onclick=function(){
-        window.open("https://facerecognition-with-api.vercel.app/");
-    }
+    document.getElementById('logout').onclick=function(){myfunction()};
+
+    console.log('logging out');
+
+function myFunction() {
+    window.open("https://facerecognition-with-api.vercel.app/", "_self")
+}
 </script>
 
 </html>

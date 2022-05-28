@@ -21,7 +21,7 @@ html{
 h1{
     color:white;
 }
-.logout{
+#logout{
     color: white;
     display: block;
     padding: 3px 22px;
